@@ -1,0 +1,82 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="synrc.css" type="text/css" rel="stylesheet" />
+    <title>Islands</title>
+</head>
+
+<body>
+    <header>
+    </header>
+
+    <div id="newGame">
+        <br>
+        <p>
+        <form>
+            <label for="player1">Player1 Nickname:</label>
+            <input id="player1" autofocus="true" />
+            <br>
+            <br>
+            <label for="player2">Player2 Nickname:</label>
+            <input id="player2" />
+            <br>
+            <button id="newGameButton">New Game</button>
+            <button id="addPlayerButton">Add Player</button>
+        </form>
+        </p>
+    </div>
+    <div id="positionIsland">
+        <br>
+        <p>
+        <form>
+            <label for="island">Island:</label>
+            <input id="island" />
+            <br>
+            <label for="row">Row:</label>
+            <input id="row" />
+            <br>
+            <label for="col">Col:</label>
+            <input id="col" />
+            <br>
+            <button id="positionIslandButton">Position Island</button>
+        </form>
+        </p>
+    </div>
+    <div id="setIslands">
+        <br>
+        <p>
+            <button id="setIslandsButton">Set Islands</button>
+        </p>
+    </div>
+    <div id="guessCoordinate">
+        <br>
+        <p>
+        <form>
+            <label for="guessrow">Row:</label>
+            <input id="guessrow" />
+            <br>
+            <label for="guesscol">Col:</label>
+            <input id="guesscol" />
+            <br>
+            <button id="guessCoordinateButton">Guess Coordinate</button>
+        </form>
+        </p>
+    </div>
+    <br>
+    <history id="history"></history>
+    <br>
+    <footer>Brought to you with ♡ by N2O developers.</footer>
+    <script src="https://ws.n2o.dev/priv/utf8.js"></script>
+    <script src="https://ws.n2o.dev/priv/bert.js"></script>
+    <script src="https://ws.n2o.dev/priv/heart.js"></script>
+    <script src="https://ws.n2o.dev/priv/n2o.js"></script>
+    <script>host = location.hostname; port = 8001; debug = true;</script>
+    <script src="https://ws.n2o.dev/priv/ftp.js"></script>
+    <script src="https://nitro.n2o.dev/priv/js/nitro.js"></script>
+    <script>protos = [$bert]; N2O_start();</script>
+</body>
+
+</html>

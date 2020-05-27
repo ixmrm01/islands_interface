@@ -1,0 +1,20 @@
+{application, islands_interface,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {islands_interface_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    cowboy,
+    nitro,
+    syn,
+    n2o,
+    islands_engine
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
