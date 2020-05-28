@@ -33,6 +33,6 @@ http://localhost:8001/app/index.htm
 * [Erlang Coding Standards & Guidelines](https://github.com/inaka/erlang_guidelines)
 * [Writing Beautiful Code](http://www.gar1t.com/blog/writing-beautiful-code-erlang-factory.html)
 * [Adopting Erlang](https://adoptingerlang.org/)
-* [Checkout Dependencies](https://adoptingerlang.org/docs/development/dependencies/)
+* [Checkout Dependencies](https://adoptingerlang.org/docs/development/dependencies/#checkout-dependencies)
 * [Erlang build tool](https://github.com/erlang/rebar3)
 * [Erlang Formatter for Rebar3](https://github.com/AdRoll/rebar3_format)
