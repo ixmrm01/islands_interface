@@ -1,5 +1,5 @@
 # islands_interface
-Front end application for the islands game from book [Functional Web Development with Elixir, OTP, and Phoenix](https://pragprog.com/book/lhelph/functional-web-development-with-elixir-otp-and-phoenix)
+Erlang front end application for the islands game from book [Functional Web Development with Elixir, OTP, and Phoenix](https://pragprog.com/book/lhelph/functional-web-development-with-elixir-otp-and-phoenix)
 
 * **[Erlang](https://www.erlang.org) instead of Elixir**
 * **[N2O](https://github.com/synrc/n2o) + [Nitro](https://github.com/synrc/nitro) instead of Phoenix**
